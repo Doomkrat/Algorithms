@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8uQWWwZQubvn8mD53ozwVBF88To2fazRrs0ZQJRq3QSEJVd4VJ7x9znwE7cCvpMqBmXsRfocWPaeb81xF7Vt8g==",
+  "dgSpecHash": "yNSL6Czlx1sh78BMZTLKRNEhb6LDKpHiaR1XIcXDwUU868IV1mm/SHWoE/bMcWM9s0SLT71yBB23BbkXqSs7WA==",
   "success": true,
-  "projectFilePath": "C:\\source\\RoadToGoogle\\RoadToGoogle\\RoadToGoogle.csproj",
+  "projectFilePath": "c:\\source\\Algorithms\\RoadToGoogle\\RoadToGoogle.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sergii\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Sergii\\.nuget\\packages\\fluentassertions\\6.1.0\\fluentassertions.6.1.0.nupkg.sha512",

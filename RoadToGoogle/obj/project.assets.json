@@ -5070,11 +5070,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\RoadToGoogle\\RoadToGoogle\\RoadToGoogle.csproj",
+      "projectUniqueName": "c:\\source\\Algorithms\\RoadToGoogle\\RoadToGoogle.csproj",
       "projectName": "RoadToGoogle",
-      "projectPath": "C:\\source\\RoadToGoogle\\RoadToGoogle\\RoadToGoogle.csproj",
+      "projectPath": "c:\\source\\Algorithms\\RoadToGoogle\\RoadToGoogle.csproj",
       "packagesPath": "C:\\Users\\Sergii\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\RoadToGoogle\\RoadToGoogle\\obj\\",
+      "outputPath": "c:\\source\\Algorithms\\RoadToGoogle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
