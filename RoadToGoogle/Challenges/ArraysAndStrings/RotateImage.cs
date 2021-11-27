@@ -32,7 +32,7 @@ namespace RoadToGoogle.Challenges.ArraysAndStrings
                 //3 6 9
             }
             //now we just need swap the rows using 2 pointers
-            //we are going to do so upt to the middle (j<(N/2))
+            //we are going to do so up to the middle (j<(N/2))
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < (n / 2); j++)

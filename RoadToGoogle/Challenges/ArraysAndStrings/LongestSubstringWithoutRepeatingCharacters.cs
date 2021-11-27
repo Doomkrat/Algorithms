@@ -12,27 +12,27 @@ namespace RoadToGoogle.Challenges.ArraysAndStrings
             int[] chars = new int[128];
 
             //indexes for sliding window
-            //left to contruct the window
+            //left to contract the window
             int left = 0;
             //right to extend the window
             int right = 0;
 
             int res = 0;
             
-            //we are going to extend the window to the right untill right boundary will not reach end of
+            //we are going to extend the window to the right until right boundary will not reach end of
             while (right < s.Length)
             {
-                //grabing current character
+                //grabbing current character
                 char r = s[right];
                 //adding this character to the array
                 chars[r]++;
 
-                //if character on the right boundarry appear more than once, we need to keep contructing the window
+                //if character on the right boundary appear more than once, we need to keep contracting the window
                 while (chars[r] > 1)
                 {
                     //grab left character
                     char l = s[left];
-                    //and reduce it's occurence in the array
+                    //and reduce it's occurrence in the array
                     chars[l]--;
                     //and move forward left pointer
                     left++;

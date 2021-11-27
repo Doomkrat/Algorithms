@@ -5070,11 +5070,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\source\\Algorithms\\RoadToGoogle\\RoadToGoogle.csproj",
+      "projectUniqueName": "C:\\source\\Algorithms\\RoadToGoogle\\RoadToGoogle.csproj",
       "projectName": "RoadToGoogle",
-      "projectPath": "c:\\source\\Algorithms\\RoadToGoogle\\RoadToGoogle.csproj",
+      "projectPath": "C:\\source\\Algorithms\\RoadToGoogle\\RoadToGoogle.csproj",
       "packagesPath": "C:\\Users\\Sergii\\.nuget\\packages\\",
-      "outputPath": "c:\\source\\Algorithms\\RoadToGoogle\\obj\\",
+      "outputPath": "C:\\source\\Algorithms\\RoadToGoogle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -5148,7 +5148,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

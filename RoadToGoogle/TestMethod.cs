@@ -1,5 +1,6 @@
 using FluentAssertions;
 using NUnit.Framework;
+using RoadToGoogle.Challenges.ArraysAndStrings;
 using RoadToGoogle.Challenges.SortingAndSearching;
 
 namespace RoadToGoogle
@@ -15,10 +16,10 @@ namespace RoadToGoogle
         [Test]
         public void Test()
         {
-            int[][] a = { new[] { 2, 3 }, new[]{ 2, 2 }, new[]{3,3}, new[]{1,3}, new[] { 5, 7 }, new[] { 2, 2 }, new[] { 4, 6 } };
-            int[][] b = { new[] { 1, 3 }, new[]{4,7}};
+            string[] logs = { "dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero" };
+            string[] output = {"let1 art can", "let3 art zero", "let2 own kit dig", "dig1 8 1 5 1", "dig2 3 6"};
 
-            MergeIntervals.Merge(a).Should().BeEquivalentTo(b);
+            ReorderdataInLogFiles.ReorderLogFiles(logs).Should().BeEquivalentTo(output);
         }
     }
 }
